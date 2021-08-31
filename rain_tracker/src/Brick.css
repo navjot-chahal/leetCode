@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+  border: 1px solid;
+  margin: 0 5px;
+}
+
+.water {
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  border: 1px solid;
+  margin: 0 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column-reverse;
+}
